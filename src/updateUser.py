@@ -10,4 +10,4 @@ def update_user(old_username, new_username):
     
     print(response)
     
-update_user('testuser', 'testuserupdated')
+update_user('testusername', 'testusernameupdated')
