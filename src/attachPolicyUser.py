@@ -6,8 +6,8 @@ def attach_policy(policy_arn,username):
     
     response = iam.attach_user_policy(
         
-        UserName=username,
-        PolicyArn=policy_arn
+        UserName = username,
+        PolicyArn = policy_arn
         
     )
     
