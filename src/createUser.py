@@ -6,4 +6,4 @@ def create_user(username):
     print(response)
     
     
-create_user('testuser')
+create_user('testusername')
